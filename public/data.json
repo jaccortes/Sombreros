@@ -1,0 +1,31 @@
+{
+    "servicios": [
+        {
+            "titulo": "PRODUCTOS",
+            "descripcion" : "Disfruta de Nuestros Productos",
+            "imagen": "./img/productosseccion.jpg"
+        },
+        {
+            "titulo": "REALIZAR UN PEDIDO",
+            "descripcion" : "Viste de Colombia",
+            "imagen": "./img/pedidosservicio.png"
+        },
+        {
+            "titulo": "ESTADO DEL PEDIDO",
+            "descripcion" : "Realiza Seguimiento a tu Pedido",
+            "imagen": "./img/seguimientoseccion.jpg"
+        },
+        {
+            "imagen": "./img/edificiosombrero.jpg"
+        },
+        {
+            "imagen": "./img/haciendosombrero.jpg"
+        },
+        {
+            "imagen": "./img/mujersombrero.jpg"
+        },
+        {
+            "imagen": "./img/papasombrero.jpg"
+        }
+    ]
+}

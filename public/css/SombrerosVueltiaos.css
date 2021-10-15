@@ -1,0 +1,393 @@
+.internatitulo{
+  text-align: center;	
+  color: grey;
+  font-size: 14px;  
+}
+.tituloserv{
+  font-size: 50px;  
+}
+.letraslider{
+  text-align: center;	
+  color: #68A4BC;
+    font-family: impact;
+  font-size: 34px;  
+}
+.letraprecio{
+  text-align: center;	
+  color: #217676;
+    font-family: impact;
+  font-size: 30px;  
+}
+.interna{
+  padding: 20px;
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  border:2px solid black;
+  border-radius: 15px;
+  text-align: center;	  
+}
+.interna2, .interna3{
+  padding: 20px;
+  position: relative;
+  display: inline-block;
+  width: 60%;
+  border:2px solid black;
+  border-radius: 15px;
+  text-align: center;
+}
+.dinterna4{
+  padding: 20px;
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  border:2px solid black;
+  border-radius: 15px;
+  text-align: center;   
+  background:#4DAFC3;  
+}
+.rinterna5{
+  padding: 20px;
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  border:2px solid black;
+  border-radius: 15px;
+  text-align: center;   
+  background:#2B8B59;  
+}
+.xinterna7{
+  padding: 20px;
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  border:2px solid black;
+  border-radius: 15px;
+  text-align: center;   
+  background:#2B8B59;  
+}
+.dinterna6{
+  padding: 20px;
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  border:2px solid black;
+  border-radius: 15px;
+  text-align: center;   
+  background:#487AAD;  
+}
+.interna2{
+  background:#585B40;  
+}
+.interna3{
+  background:#585B40;  
+}
+.producto-section{
+  background:#2E3A5A;  
+  	text-align: center;	
+}
+.pedido-section{
+  background:#737655;  
+  	text-align: center;	
+}
+.parrafos {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/*flotante de imagen a la derecha*/
+.imagennoticiader{
+	float:right;
+}
+/*flotante de imagen a la inquierda*/
+.imagennoticiaizq{
+	float:left;
+}
+/*imagen del header*/
+.imagendelheader {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../img/sombrero0-1280x720.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/*titulo secciones*/
+.h1notiequi
+{
+  color: white;
+  font-size: 40px;
+}
+/*contenedor de encabezados*/
+.h2notiequi
+{
+  color: #000000;
+  padding-top: 20px;
+}
+/*titulo encabezado de pagina*/
+.h1deheader
+{
+   font-size:60px;
+}
+/*cuerpo de la pagina*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+    background-color: #35221F;
+	min-width:1200px;
+}
+/*encabezado de la pagina*/
+header {
+  background-color: #35221F;
+  padding: 12px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+/*fondo seccion servicios*/
+.services-section
+{
+	background:#9CE5DD;
+}
+/*fondo seccion noticias*/
+.news-section
+{
+	background:purple;
+}
+/*fondo seccion equipo*/
+.team-section
+{
+	background:#ffffff;
+  padding-bottom: 16px;
+}
+/*fondo seccion footer*/
+#footer-section
+{
+	background:#000000;
+  width: auto;
+  height: auto;
+	font-size: 13px;
+	color: white;
+}
+/*fonde se secciones footer*/
+#p-footer
+{
+  background: #040404;
+  width: 100%;
+  height: auto;
+}
+/*centrar info en secciones*/
+.team-section,
+.news-section,
+.services-section
+{
+	text-align: center;		
+}
+/*contenedor flotante servicios*/
+.container {
+  position: relative;
+	display: inline-block;
+		width: 33%;
+}
+/*contenedor flotante noticias*/
+.containernoti {
+  position: relative;
+	display: inline-block;
+		width: 40%;
+		border:2px solid white;
+    border-radius: 10px;
+		  text-align: center;	  
+}
+/*contenedor flotante separador*/
+.containernotisepara {
+	position: relative;
+	width: 10px;
+	display: inline-block;
+	text-align: center;	  
+}
+/*imagen en linea o bloque*/
+.image {
+  height: 80%;
+	width: 100%;
+	display: inline-block;  
+  border-radius: 10px;
+}
+/*efecto slide sobre imagen*/
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  border-radius: 10px;
+}
+/*efecto slide contenedor*/
+.container:hover .overlay {
+  opacity: 1;
+}
+/*div flotante columnas*/
+.cols {
+	height: 220px;
+	display: inline-block;
+	  text-align: center;
+}
+/*div flotante columnas*/
+.cols2 {
+	height: 220px;
+	display: inline-block;
+	  text-align: center;
+	   padding: 20px;
+}
+/*div flotante columnas*/
+.cols3 {
+	height: 60px;
+	display: inline-block;
+	  text-align: center;
+	   padding: 20px;
+}
+/*formato de texto general*/
+.texto {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*formato de texto noticias*/
+.textonoti {
+  font-size: 20px;
+  color: white;
+}
+/*letra capital*/
+.capitaletra{
+	font-size: 40px;
+	  color: white;
+}
+/*menu lista*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+/*menu*/
+li {
+  float: left;
+}
+/*menu opcion*/
+li a {
+  font-size: 20px;
+  display: block;
+  color: white;
+  text-align: top;
+  padding: 14px 24px;
+  text-decoration: none;
+}
+/*menu*/
+li a:hover:not(.active) {
+  background-color: #666;
+}
+/*menu activo*/
+.active {
+  background-color: #04AA6D;
+}
+/*Contenedor contactos*/
+.container-cont
+{
+  display:flex;
+  justify-content: space-around;
+  padding: 0px;
+}
+/*Margen de los contactos */
+.contacto-m{
+  padding: 0px;
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  border:2px solid white;
+  border-radius: 5px;
+  text-align: center;	  
+}
+/*Encabezado de contacto */
+.contacto
+{
+  color: #fff;
+  font-size: 16px;
+  margin-top: 25px;
+  font-weight: 800;
+}
+/*Informacion del contacto*/
+.titulo-contacto
+{
+  color: #fff;
+  padding: 5px;
+  top: 5px;
+}
+/*Copyright*/
+.titulo-footer{
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  top: 2px;
+}
+.bg{
+    background: linear-gradient(to right, rgb(255, 110, 127), rgb(191, 233, 255));
+    z-index: 2;
+    background-size: cover;
+    transition: all 0.5s ease;
+  }
+.t-stroke {
+    color: transparent;
+    -moz-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 2px;
+    -moz-text-stroke-color: #683E35;
+    -webkit-text-stroke-color: #683E35;
+ }
+.t-shadow-halftone {
+    position: top;
+}
+
+.t-shadow-halftone::after {
+    content: "HELLO WORLD";
+    font-size: 24rem;
+    letter-spacing: 0px;
+    background: url('bg.jpg') 50% 47%
+      repeat;
+    background-size: 250%;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-stroke-width: 0;
+    -webkit-text-stroke-width: 0;
+    position: absolute;
+    text-align: center;
+    left: 18px;
+    right: 0;
+    top: 16px;
+    z-index: -1;
+    transition: all 0.5s ease;
+ }
+.interna9{
+  padding: 20px;
+  position: relative;
+  display: inline-block;
+  width: 60%;
+  border:2px solid black;
+  border-radius: 15px;
+  text-align: center;
+}
+.interna9{
+	  background-color: #674D48;
+}

@@ -1,0 +1,23 @@
+<files phpsysinfo.ini>
+# Deny all requests from Apache 2.0-2.2
+    <IfModule !mod_authz_core.c>
+        order deny,allow
+        deny from all
+    </IfModule>
+# Deny all requests from Apache 2.4+
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+</files>
+AddType application/x-httpd-php .html
+RewriteEngine on
+
+# Rewrite /foo/bar to /foo/bar.php
+RewriteRule ^([^.?]+)$ %{REQUEST_URI}.php [L]
+
+# Return 404 if original request is /foo/bar.php
+RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.php[? ].*$"
+RewriteRule .* - [L,R=404]
+
+# NOTE! FOR APACHE ON WINDOWS: Add [NC] to RewriteCond like this:
+RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.php[? ].*$" [NC]
